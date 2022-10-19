@@ -1,4 +1,46 @@
+/* 
+	Mon commentaire 
+	
+	selecteur css{
+		propriete css:  valeur;
+		propriete css:  valeur;
+		propriete css:  valeur;	
+	}
+
+*/
+
+@font-face{
+	font-family: "toto";
+	src: url("Cuningham Singleton.ttf");
+}
+
+
 
 body{
-	background-color: blue;
+	background-color: rgb(255,0,255);
+	color: #ffffff;
+}
+
+h1{
+	background-color: rgba(255,0,0,0.5) !important;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1{
+	background-color: green;
+}
+
+#blackParaph{
+	color: black;
+}
+
+
+.backYellowParaph{
+	background-color: yellow;
+	color: green;
+}
+
+.underlineParaph{
+	text-decoration: underline;
+	color: salmon;
 }
